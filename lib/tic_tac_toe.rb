@@ -14,8 +14,8 @@ def move(board, index, character)
   board[index] = character
 end 
 
-def position_taken?(board)
-  
+def position_taken?(board, index)
+  !()
 
 WIN_COMBINATIONS = [
   [0, 1, 2], #Top row
