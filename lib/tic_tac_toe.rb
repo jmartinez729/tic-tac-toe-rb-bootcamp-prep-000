@@ -82,6 +82,10 @@ WIN_COMBINATIONS = [
   [2, 4, 6]  #Bottom left to top right
   ]
   
+  def won?(board)
+    
+    
+  end 
   
   
   
