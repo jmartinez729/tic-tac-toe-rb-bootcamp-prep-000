@@ -103,7 +103,8 @@ WIN_COMBINATIONS = [
     position_3 == "O"
     
     return win_combination
-    
+  end 
+    }
     
   end 
   
