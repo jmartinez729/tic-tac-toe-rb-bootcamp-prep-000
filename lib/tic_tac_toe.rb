@@ -96,6 +96,8 @@ WIN_COMBINATIONS = [
       position_2 == "X" &&
       position_3 == "X"
       
+      return win_combination
+    else 
     
   end 
   
