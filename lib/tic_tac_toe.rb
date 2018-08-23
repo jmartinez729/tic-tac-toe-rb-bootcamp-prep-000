@@ -92,7 +92,7 @@ WIN_COMBINATIONS = [
     position_2 = board[win_index_2]
     position_3 = board[win_index_3]
     
-    
+    if position_1 
     
   end 
   
