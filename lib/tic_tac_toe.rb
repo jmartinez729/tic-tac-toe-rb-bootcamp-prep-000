@@ -36,6 +36,8 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
+  num = gets.chomp
+  
 
 WIN_COMBINATIONS = [
   [0, 1, 2], #Top row
