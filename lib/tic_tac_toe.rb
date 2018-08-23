@@ -51,7 +51,8 @@ def turn_count(board)
   turns = 0 
   
   board.each do |space|
-    
+    if space == "X"
+      
 
 WIN_COMBINATIONS = [
   [0, 1, 2], #Top row
