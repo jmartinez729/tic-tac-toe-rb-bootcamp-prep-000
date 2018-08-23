@@ -27,11 +27,12 @@ def on_board?(index)
 end 
 
 def valid_move?(board, index)
-  if !position_taken?(board, index) && on_board(index)
-    return false
-  else
+  if !position_taken?(board, index) && on_board?(index)
     return true
+  else
+    return false
   end 
+end 
 
 WIN_COMBINATIONS = [
   [0, 1, 2], #Top row
