@@ -55,7 +55,12 @@ def turn_count(board)
       turns += 1
     end 
   end 
+  
+  return turns
 end 
+
+def current_player(board)
+  
 
 WIN_COMBINATIONS = [
   [0, 1, 2], #Top row
