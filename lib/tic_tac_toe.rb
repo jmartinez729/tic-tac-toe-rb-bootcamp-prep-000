@@ -24,7 +24,7 @@ def valid_move?(board, index)
     end 
   end 
   
-  if position_taken?(board, index) == false && on_board?(index) == true 
+  if !position_taken?(board, index) && on_board?(index) 
     return true 
   else
     return false 
@@ -41,7 +41,7 @@ def turn(board)
   num = gets.chomp
   index = input_to_index(num)
   
-  if valid_move?(board, index) == true 
+  if valid_move?(board, index)
     move(board, index)
     display_board(board)
   else  
@@ -141,5 +141,3 @@ def winner(board)
   end 
   
 end
-
-
