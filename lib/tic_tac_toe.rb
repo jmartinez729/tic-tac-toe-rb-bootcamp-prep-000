@@ -66,6 +66,7 @@ def current_player(board)
     player = "X" 
   else 
     player = "O" 
+  end 
 
 WIN_COMBINATIONS = [
   [0, 1, 2], #Top row
