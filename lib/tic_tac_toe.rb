@@ -80,10 +80,8 @@ WIN_COMBINATIONS = [
   [2, 5, 8], #Right column
   [0, 4, 8], #Top left to bottom right
   [2, 4, 6]  #Bottom left to top right
-  
-  
-  
-  
-  
-  
   ]
+  
+  
+  
+  
