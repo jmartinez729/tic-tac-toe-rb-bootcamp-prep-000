@@ -141,6 +141,7 @@ end
 
 def play(board)
   if over?(board)
+    puts "Congratulations #{winner(board)}!"
     
   else
     
