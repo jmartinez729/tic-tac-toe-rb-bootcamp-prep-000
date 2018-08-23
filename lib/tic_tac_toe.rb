@@ -15,7 +15,7 @@ def move(board, index, character)
 end 
 
 def position_taken?(board, index)
-  !()
+  !(board[index].nil || )
 
 WIN_COMBINATIONS = [
   [0, 1, 2], #Top row
