@@ -39,7 +39,9 @@ def turn(board)
   num = gets.chomp
   index = input_to_index(num)
   
-  if valid_move?(board, index) 
+  if valid_move?(board, index)
+    move(board, index)
+    display_board(board)
 
 WIN_COMBINATIONS = [
   [0, 1, 2], #Top row
