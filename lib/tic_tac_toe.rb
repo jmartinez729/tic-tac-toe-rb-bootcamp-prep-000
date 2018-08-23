@@ -102,6 +102,9 @@ WIN_COMBINATIONS = [
     position_2 == "O" &&
     position_3 == "O"
     
+    return win_combination
+    
+    
   end 
   
   
