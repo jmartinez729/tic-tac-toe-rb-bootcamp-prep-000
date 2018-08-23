@@ -35,6 +35,7 @@ def valid_move?(board, index)
 end 
 
 def turn(board)
+  puts 
 
 WIN_COMBINATIONS = [
   [0, 1, 2], #Top row
